@@ -1,0 +1,23 @@
+package com.spring.kafka;
+
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Component;
+
+import com.spring.dto.Product;
+@Component
+public class OrderProducer {
+
+	private final KafkaTemplate<String,String> template;
+
+	OrderProducer(KafkaTemplate template) {
+        this.template = template;
+    }
+	
+    public void sendOrder(Product p) {
+    	template.send("demo-topic",p.toString());
+    	
+    }
+
+	
+}
+

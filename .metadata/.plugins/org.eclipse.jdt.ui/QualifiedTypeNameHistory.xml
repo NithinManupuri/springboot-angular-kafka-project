@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.spring.kafka.KafkaProducer"/>
+    <fullyQualifiedTypeName name="com.spring.kafka.OrderProducer"/>
+    <fullyQualifiedTypeName name="com.spring.dto.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+</qualifiedTypeNameHistroy>
